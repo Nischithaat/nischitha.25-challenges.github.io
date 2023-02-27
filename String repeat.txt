@@ -1,0 +1,10 @@
+function repeatStr (numberOfRepeates, str) {
+  
+  let starterString = '';
+  
+  for (let i = 0; i < numberOfRepeates; i++) {
+    starterString = starterString + str;
+  }
+  return starterString;
+}
+
